@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import KidsContent from "./components/categories/KidsContent";
+import MaleContent from "./components/categories/ManContent";
+import FameleContent from "./components/categories/FamaleContent";
+import KappaContent from "./components/Kappa";
+import TheNorthFaceContent from "./components/TheNorthFace";
+import PumaContent from "./components/Puma";
+import ReebokContent from "./components/Reebok";
+import LiningContent from "./components/Lining";
+import AdidasContent from "./components/Adidas";
+import NikeContent from "./components/Nike";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NikeContent />
+      <LiningContent />
+      <ReebokContent />
+      <PumaContent />
+      <TheNorthFaceContent />
+      <KappaContent />
+      <FameleContent />
+      <MaleContent />
+      <KidsContent />
+      <AdidasContent />
     </div>
   );
 }
